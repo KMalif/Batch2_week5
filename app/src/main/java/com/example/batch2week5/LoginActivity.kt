@@ -16,4 +16,16 @@ class LoginActivity : AppCompatActivity() {
             startActivity(Intent(this, RegisterActivity::class.java))
         }
     }
+
+    //function btn sign in action
+
+
+    //function btn sign up action
+
+
+    //function cek berhasil login
+
+
+    //function request login ke API
+
 }

@@ -11,9 +11,15 @@ class RegisterActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityRegisterBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         binding.IconBack.setOnClickListener {
             startActivity(Intent(this, LoginActivity::class.java))
         }
     }
+
+    //function icon back action
+
+    //function btn sign up action
+
+    //function request register
+
 }
